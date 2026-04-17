@@ -17,6 +17,39 @@ results/
 graduate-thesis/Figures/
 journal-article/Figures/
 
+# macOS metadata
+.DS_Store
+
+# Vim undo files
+*.un~
+
+# pip internals
+pip-selfcheck.json
+
+# virtualenv directories
+bin/
+include/
+lib/
+lib64/
+
+# LaTeX build artifacts
+*.aux
+*.4ct
+*.4tc
+*.lof
+*.lot
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.log
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
